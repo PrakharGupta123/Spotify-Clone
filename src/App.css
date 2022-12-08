@@ -1,0 +1,177 @@
+
+.side{
+  width:20vw;
+  min-width:200px;
+  background-color:black;
+  height: 100vh;
+  color:white;
+  padding-left:20px;
+  padding-top:2vw;
+  position:fixed;
+}
+.logo{
+  font-size: 40px;
+  margin-right: 10px;
+}
+.header{
+  display: flex;
+  padding-bottom: 20px;
+}
+.spotify{
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 18%;
+}
+.item-group{
+  display: flex;
+  margin-bottom: 2vh;
+
+}
+.item{
+  margin-right: 1vw;
+  font-weight: bold;
+  height: 20px;
+}
+.createplaylist{
+  background-color: rgb(192, 192, 192);
+}
+.footer{padding-top: 40vh;
+ color: grey; 
+ font-size: small;
+}
+
+.navitems{
+  font-size: 80%;
+  margin-left: 2%;
+  font-weight: bold;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  
+}
+.nav{
+  margin-left: 20vw;
+  position: fixed;
+  display: flex;
+ 
+  color: grey;
+  height: 8vh;
+  background-color: black;
+  width: 80vw;
+  
+  padding-left: 50vw;
+}
+#login{
+ text-align: center;
+border-radius: 23%;
+height: 100%;
+font-weight: bold;
+}
+.navline{
+  font-size: 2vh;
+  color: white;
+  font-weight: 100;
+}
+
+.card{
+  padding: 10px;
+  background-color: rgb(4, 4, 4);
+  width: 180px;
+  margin-bottom: 200px;
+
+}
+.card-heading{
+  font-size: 60%;
+  padding-top: 7%;
+}
+.cardimg{
+height: 130px;
+}
+.card-text{
+  font-size: 40%;
+  color: rgb(171, 171, 171);
+  padding-top: 5%;
+}
+
+.card-items{
+  display: flex;
+  padding-top: 2%;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+  .category{
+height: 48vh;
+z-index: -100;
+ color: white;
+ font-size: 150%;
+ font-weight: bold;
+ padding: 35px;
+ overflow-y:hidden;
+}
+.sections{
+
+  margin-left: 20vw;
+  position: absolute;
+margin-top: 8vh;
+  display: flex;
+flex-direction: column;
+padding-bottom: 200px;
+background-color:rgba(0, 0, 0, 0.925) ;
+z-index: -200;
+}
+.insidetile{
+  margin-left: 20vw;
+  height: 100vh;
+background-color: #2e2d2d;
+}
+.tilebanner{
+  height: 340px;
+  display: flex;
+  background-color:#7d91a5;
+  color: white;
+  padding-top:80px ;
+  padding-left:2vw ;
+  padding-bottom: 2vh;
+}
+.tileimg{
+  box-shadow: 0 4px 60px rgb(0 0 0 / 50%);
+  width: 232px;
+  height: 232px;
+}
+.extra-info{
+  display: flex;
+}
+.tiledesc{
+  padding-top: 30px;
+  line-height: 1.6;
+  padding-left: 2vw;
+
+}
+.tileheading{
+  font-size: 5rem;
+  font-weight: bold;
+}
+.song-section-nav{
+  width: 200px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  padding-left:2vw ;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: white;
+}
+.song{
+  color: #b3b3b3;
+  margin-left:3vw ;
+ display: flex;
+ padding-right:3vw ;
+ justify-content: space-between;
+ top:"8vh";
+ position: sticky;
+}
+#title{
+  display: flex;
+  width: 60px;
+  justify-content:space-between ;
+
+}
